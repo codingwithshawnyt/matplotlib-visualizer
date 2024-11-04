@@ -1,15 +1,18 @@
 Metadata-Version: 2.1
-Name: matplotlib-visualizer
+Name: matplotlib_visualizer
 Version: 1.0
 Summary: Introducing a GPT-powered solution designed to revolutionize data visualization without the need for coding!
 Home-page: https://github.com/codingwithshawnyt/matplotlib-visualizer
 Author: Shawn Ray
 Author-email: shawnray5699@gmail.com
 License: MIT
-Keywords: python,gpt,matplotlib,no code,LLM
-Platform: UNKNOWN
+Keywords: python,openai,matplotlib,data-visualization,LLM
 License-File: LICENSE
 
 
-Do you find yourself experiencing mixed feelings towards matplotlib? You’re not alone. To address this, I developed a mini-project designed to facilitate data visualization through natural language commands. This project relies on dependencies such as OpenAI and matplotlib, and it is remarkably user-friendly. By leveraging OpenAI’s GPT API, prompt engineering, and few-shot learning, matplotlib_ai can generate graphs without the need for any matplotlib coding. For more details, please visit the GitHub repository.
-
+Do you find yourself experiencing mixed feelings towards matplotlib? You’re not alone. 
+To address this, I developed a mini-project designed to facilitate data visualization through natural language commands. 
+This project relies on dependencies such as OpenAI and matplotlib, and it is remarkably user-friendly. 
+By leveraging OpenAI’s GPT API, prompt engineering, and few-shot learning, matplotlib_ai can generate graphs without the need for any matplotlib coding. 
+For more details, please visit the GitHub repository:
+https://github.com/codingwithshawnyt/matplotlib-visualizer
