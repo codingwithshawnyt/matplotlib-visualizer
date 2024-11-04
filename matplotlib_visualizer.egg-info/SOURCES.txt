@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+matplotlib_visualizer/__init__.py
+matplotlib_visualizer/matplotlib_visualizer.py
+matplotlib_visualizer.egg-info/PKG-INFO
+matplotlib_visualizer.egg-info/SOURCES.txt
+matplotlib_visualizer.egg-info/dependency_links.txt
+matplotlib_visualizer.egg-info/top_level.txt

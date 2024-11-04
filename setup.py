@@ -1,22 +1,22 @@
 from setuptools import setup, find_packages
 
 LONG_DESC = """
-Do you also have a love-hate relationship with matplotlib? So do I! 
-That's why I created this mini-project that can help you graph your data using natural language. 
-The package dependencies require openai and matplotlib, and it is unbelievably easy to use. 
-Calling OpenAI's GPT API, prompt engineering, and using few-shot learning, matplotlib_ai is capable 
-of generating graphs without requiring you to write a single line of matplotlib code! Check out this GitHub link:
-https://github.com/notY0rick/matplotlib_ai
+Do you find yourself experiencing mixed feelings towards matplotlib? You’re not alone. 
+To address this, I developed a mini-project designed to facilitate data visualization through natural language commands. 
+This project relies on dependencies such as OpenAI and matplotlib, and it is remarkably user-friendly. 
+By leveraging OpenAI’s GPT API, prompt engineering, and few-shot learning, matplotlib_ai can generate graphs without the need for any matplotlib coding. 
+For more details, please visit the GitHub repository:
+https://github.com/codingwithshawnyt/matplotlib-visualizer
 """
 
-setup(name='matplotlib_ai',
-      version='1.0.3',
-      description='A GPT-powered tool to bring no-code data visualization to life!',
+setup(name='matplotlib_visualizer',
+      version='1.0',
+      description='Introducing a GPT-powered solution designed to revolutionize data visualization without the need for coding!',
       long_description=LONG_DESC,
-      author='Yorick Chern',
-      author_email='yorichek.007@gmail.com',
-      url='https://github.com/notY0rick/mpl_ai',
+      author='Shawn Ray',
+      author_email='shawnray5699@gmail.com',
+      url='https://github.com/codingwithshawnyt/matplotlib-visualizer',
       packages=find_packages(),
-      keywords=['python', 'gpt', 'matplotlib', 'no code', 'LLM'],
+      keywords=['python', 'openai', 'matplotlib', 'data-visualization', 'LLM'],
       license='MIT'
       )

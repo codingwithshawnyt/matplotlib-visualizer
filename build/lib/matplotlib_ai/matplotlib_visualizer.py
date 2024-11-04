@@ -2,11 +2,11 @@ import openai
 import inspect
 
 
-class matplotlib_ai:
+class matplotlib_visualizer:
 
     def __init__(self, api_key, engine='gpt', model_name='gpt-3.5-turbo'):
         """
-        Initializer for matplotlib_ai.
+        Initializer for matplotlib_visualizer.
 
         :param api_key: the api key needed to access the models - str
         :param engine: the type of engine to be used - str
@@ -47,7 +47,7 @@ class matplotlib_ai:
         return training_prompt
 
     def call_gpt(self, message):
-        prompt = matplotlib_ai.create_prompt(message)
+        prompt = matplotlib_visualizer.create_prompt(message)
         response = openai.ChatCompletion.create(model=self.model_name, messages=[{"role": "system", "content": prompt}])
         response = response['choices'][0]['message']['content']
         return response
@@ -71,7 +71,7 @@ class matplotlib_ai:
         codes = []
         if self.engine == 'gpt':
             frame = inspect.currentframe().f_back
-            prompt = matplotlib_ai.create_prompt(prompt)
+            prompt = matplotlib_visualizer.create_prompt(prompt)
             keep_trying = auto_rerun
             while keep_trying:
                 try:
