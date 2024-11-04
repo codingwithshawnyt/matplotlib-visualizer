@@ -1,6 +1,6 @@
 ## `matplotlib-visualizer`
 
-Are you looking to streamline your data visualization process with [matplotlib](https://matplotlib.org)? Enter `matplotlib_ai` - a cutting-edge tool designed to simplify graph generation through natural language commands. By leveraging OpenAI's GPT API, innovative prompt engineering techniques, and employing few-shot learning capabilities, `matplotlib-visualizer` eliminates the need for manual `matplotlib` coding.
+Are you looking to streamline your data visualization process with [matplotlib](https://matplotlib.org)? Enter `matplotlib-visualizer` - a cutting-edge tool designed to simplify graph generation through natural language commands. By leveraging OpenAI's GPT API, innovative prompt engineering techniques, and employing few-shot learning capabilities, `matplotlib-visualizer` eliminates the need for manual `matplotlib` coding.
 
 Imagine we have a dataset `data` featuring four distinct curves labeled `'a'`, `'b'`, `'c'`, and `'d'`:
 ```python
