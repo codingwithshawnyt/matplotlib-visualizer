@@ -2,6 +2,11 @@
 
 Are you looking to streamline your data visualization process with [matplotlib](https://matplotlib.org)? Enter `matplotlib-visualizer` - a cutting-edge tool designed to simplify graph generation through natural language commands. By leveraging OpenAI's GPT API, innovative prompt engineering techniques, and employing few-shot learning capabilities, `matplotlib-visualizer` eliminates the need for manual `matplotlib` coding.
 
+Import `matplotlib-visualizer` via pip:
+```
+pip install pip install matplotlib-visualizer==1.0
+```
+
 Imagine we have a dataset `data` featuring four distinct curves labeled `'a'`, `'b'`, `'c'`, and `'d'`:
 ```python
 import numpy as np
@@ -30,9 +35,9 @@ On the other hand, leveraging the intuitive functionality of `matplotlib-visuali
 ```python
 from matplotlib-visualizer.matplotlib-visualizer import matplotlib-visualizer
 
-mpl_ai = matplotlib-visualizer("YOUR-OPENAI-API-KEY")
+mpl_viz = matplotlib-visualizer("YOUR-OPENAI-API-KEY")
 prompt = "Generate a graph for each curve in the dataset and title it 'Custom Graph Title'. Set curve 'a' as a dashed line."
-generated_code = mpl_ai(prompt)
+generated_code = mpl_viz(prompt)
 ```
 
 Inspect the code output through:
